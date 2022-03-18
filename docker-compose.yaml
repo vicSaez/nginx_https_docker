@@ -16,5 +16,5 @@ services:
       - app
     restart: always
 networks:
-  app:
+  bridge:
     driver: bridge
