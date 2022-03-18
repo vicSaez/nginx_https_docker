@@ -13,7 +13,7 @@ services:
       - /etc/letsencrypt:/etc/letsencrypt:ro
       - /tmp/acme_challenge:/tmp/acme_challenge
     networks:
-      - app
+      - bridge
     restart: always
 networks:
   bridge:
